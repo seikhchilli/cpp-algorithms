@@ -9,7 +9,7 @@ int main(){
     int* ptr;
     ptr = search(source, source+9, pattern, pattern+3);
     if(ptr == source+9){
-        cout<<" No match found\n";
+        cout<<" No match found\n";                                      //if fast the end
     }
     else{
         cout<<"Match at "<<(ptr-source)<<endl;
