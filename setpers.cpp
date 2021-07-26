@@ -10,7 +10,7 @@ private:
     string firstName;
     long phoneNumber;
 
-public:
+public: 
     person() : lastName("blank"),firstName("blank"), phoneNumber(0){
 
                 }
